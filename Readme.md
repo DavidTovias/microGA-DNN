@@ -8,12 +8,16 @@ save_results: json file
 
 Paralell method (threads with threading library)
 
-dataset-id = [0 - 11]
-number of experiment = [0 - 9]
-RUN
+dataset-id = [0 - 11]  
+
+number of experiment = [0 - 9]  
+
+RUN  
+
 python main.py [dataset-id] microga.json [number of experiment]
 
-
+   
+   
 Note:
 input_params/microGa*
 
