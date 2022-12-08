@@ -13,15 +13,12 @@ import sys
 import time
 from mrmr import mrmr_classif
 from sklearn.model_selection import StratifiedKFold
-#from sklearn.model_selection import train_test_split
+
 
 from data.save_results import save_results
 from factory.metaheuristics import MetaheuristicFactory
 from data.preprocess import delete_columns, get_data, normalize_data
 from data.load_data import get_params
-
-#import tensorflow as tf
-
 
 
 
